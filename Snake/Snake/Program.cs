@@ -22,6 +22,11 @@ namespace Snake
             rightLine.Drow();
             leftLine.Drow();
 
+            Point p = new Point(4, 5, '*');
+
+            Snake snake = new Snake(p, 7, Direction.RIGHT);
+            snake.Drow();
+
 
            
 
